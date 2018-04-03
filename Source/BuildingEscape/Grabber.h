@@ -29,7 +29,7 @@ protected:
 
 private:
 
-	APlayerController* Controller;
+	APlayerController* Controller = nullptr;
 	
 	UPROPERTY(EditAnywhere)
 		float GrabReach = 80.f;
